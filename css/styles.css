@@ -1,0 +1,30 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: hsl(212, 79%, 91%);
+}
+h2, p{
+    text-align: center;
+    padding: 10px;
+}
+
+.intern-body { 
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 50px 0;
+    border-radius: 10px;
+ }
+.container{
+    border-radius: 10px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+.container img{
+    border-radius: 10px;
+    margin: 15px;
+}
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
